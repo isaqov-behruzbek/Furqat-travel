@@ -1,0 +1,902 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+#modern{
+    display: flex;
+}
+a:hover{
+    text-decoration: none;
+}
+.page-1{
+    background: url(../img/img-1.jpg);
+    background-size: 100%;
+}
+.container{
+    width: 100%;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav .col-4 a{
+    color: white;
+    border: 0;
+    padding: 10px;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: rgb(186, 186, 186);
+}
+nav ul a{
+    color: white;
+    border: 0;
+    padding: 10px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+}
+nav a:hover{
+    border-bottom: 0;
+    color: white;
+    
+}
+.exp{
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+}
+.exp-con{
+    padding-top: 150px;
+    padding-bottom: 280px;
+}
+.contaner{
+    margin: 0 220px;
+}
+.book-now{
+    font-size: 22px;
+    background-color: #ff5c00;
+    padding: 10px 15px;
+}
+.book-now:hover , .button-now:hover{
+    background-color: #983800;
+}
+.p-text{
+    font-size: 20px;
+    color: white;
+    margin: 100px 0;
+}
+.sign-up{
+    width: 100%;
+    padding: 0px 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 20px black;
+    background-color: white;
+    margin-top: -140px;
+}
+.elements{
+    font-size: 24px;
+    margin: 80px;
+}
+.elements input,button{
+    border: none;
+    background-color: gray;
+    width: 200px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.choose{
+    margin-top: 150px;
+}
+.choose, .small-p{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 650;
+    color: black;
+}
+.big-p{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 650;
+    color: black;
+}
+.line{
+    background: linear-gradient(to right, silver 0% 40%, #ff5c00 40% 60%, silver 60% 100%);
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    height: 5px;
+}
+.city{
+    width: 330px;
+    height: 330px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.lorem{
+    color: rgb(169, 169, 169);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+.lore{
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+}
+.city p span{
+    color: #ff5c00;
+    font-size: 28px;
+    font-weight: 700;
+}
+.span{
+    color: #ff5c00;
+    font-size: 28px;
+    font-weight: 700;
+}
+.city-1{
+    background-image: url(../img/slider-1.jpg);
+    background-size: 100%;
+}
+.city-2{
+    background-image: url(../img/slider-2.jpg);
+    background-size: 100%;
+}
+.city-3{
+    background-image: url(../img/slider-3.jpg);
+    background-size: 100%;
+}
+.city-4{
+    background-image: url(../img/slider-4.jpg);
+    background-size: 100%;
+}
+.city-5{
+    background-image: url(../img/slider-5.jpg);
+    background-size: 100%;
+}
+.city-6{
+    background-image: url(../img/slider-6.jpg);
+    background-size: 100%;
+}
+.button-now{
+    font-size: 28px;
+    background-color: #ff5c00;
+    padding: 20px 30px;
+    width: auto;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+}
+.modern-content{
+    margin-top: 20px;
+    width: 330px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.moder{
+    width: 330px;
+    height: 330px;
+    padding: 15px;
+}
+.mountains-1{
+background-image: url(../img/slider-7.jpg);
+background-size: 100%;
+}
+.mountains-2{
+    background-image: url(../img/slider-2.jpg);
+    background-size: 100%;
+}
+.mountains-3{
+        background-image: url(../img/slider-6.jpg);
+        background-size: 100%;
+}
+.lorem-small-size{
+    font-size: 12px;
+}
+.small-container{
+    margin: 10px 20px;
+}
+.land{
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    padding: 20px 10px;
+}
+.bg-silver{
+    background-color: rgb(235, 235, 235);
+}
+.modern-content, .modern-1{
+    display: inline-block;
+}
+.nuqtalar{
+    display: block;
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+.qora-nuqta{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.brown-nuqta{
+    background-color: #ff5c00;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.nineth{
+    width: 100%;
+    height: 400px;
+}
+.nineth img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 400px;
+    size: 100%;
+    filter: blur(8px);
+}
+.black{
+    margin-top: 90px;
+    width: 300px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.285);
+    height: 240px;
+    border-radius: 25px;
+    text-align: center;
+}
+.cls{
+    clear: both;
+}
+.lor{
+    font-size: 34px;
+    font-weight: 700;
+}
+.spa{
+    padding-top: 20px;
+    color: #ff5c00;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+footer{
+    background-image: url(../img/zaamin-district-is-located.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    margin-top: 200px;
+}
+.footer-text{
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+}
+.footer-small{
+    font-size: 23px;
+    color: white;
+}
+
+.white{
+    width: 110px;
+    margin-top: 8px;
+    height:80px;
+    background-color: rgb(212, 230, 240);
+    border-radius: 25px;
+}
+.coll-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.coll-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.coll-5 {
+    -ms-flex: 0 0 49%;
+    flex: 0 0 49%;
+    max-width: 49%;
+    padding: 0;
+}
+.mtt-3{
+    margin-top: 1rem;
+}
+.small-p{
+    font-size: 26px;
+}
+     /* RESPONSIVE */
+
+     @media screen and (max-width: 1024px){
+        nav{
+            max-width: 1024px;
+        }
+        .contaner{
+            margin: 0 110px;
+        }
+        nav ul a{
+            font-size: 20px;
+        }
+        .coll-2 {
+            display: none;
+            -ms-flex: 0 0 0;
+            flex: 0 0 0;
+            max-width: 0;
+        }
+        .coll-5 {
+            -ms-flex: 0 0 61.666667%;
+            flex: 0 0 81.666667%;
+            max-width: 61.666667%;
+        }
+        .exp{
+            font-size: 80px;
+        }
+        .exp-con{
+            padding-top: 25px;
+            padding-bottom: 150px;
+        }
+        .p-text{
+            margin: 20px 0;
+        }
+        .elements{
+            font-size: 18px;
+            margin: 30px;
+        }
+        .elements input, button{
+            padding: 8px 10px;
+            width: 150px;
+        }
+        .sign-up{
+            margin-top: -80px;
+        }
+        .choose{
+            margin-top: 100px;
+        }
+        .city{
+            width: 250px;
+            height: 250px;
+        }
+        .lore , .lorem{
+            font-size: 24px;
+        }
+        .moder{
+            width: 250px;
+            height: 250px;
+        }
+        .book-now ,.land{
+            font-size: 20px;
+            padding: 5px;
+        }
+        .nineth{
+            max-width: 1024px;
+        }
+        .nineth img{
+            max-width: 1010px;
+        }
+        .black{
+            width: 190px;
+            height: 190px;
+            padding: 30px;
+            
+        }
+        .lor , .spa{
+            font-size: 28px;
+        }
+        .footer-text{
+            font-size: 28px;
+        }
+        .footer-small{
+            font-size: 16px;
+        }
+        .white{
+            width: 55px;
+            height: 55px;
+        }
+        footer{
+            margin-top: 100px;
+        }
+     }
+
+
+
+     /* responsive 768 */
+
+     @media screen and (max-width: 768px){
+        nav{
+            max-width: 768px;
+        }
+        .contaner{
+            margin: 0 40px;
+        }
+        #book{
+            display: none;
+        }
+        nav ul a{
+            font-size: 18px;
+        }
+        .coll-2 {
+            display: none;
+            -ms-flex: 0 0 0;
+            flex: 0 0 0;
+            max-width: 0;
+        }
+        .coll-5 {
+            -ms-flex: 0 0 61.666667%;
+            flex: 0 0 71.666667%;
+            max-width: 70;
+        }
+        .exp{
+            font-size: 70px;
+        }
+        .exp-con{
+            padding-top: 20px;
+            padding-bottom: 105px;
+        }
+        .p-text{
+            margin: 15px 0;
+        }
+        .elements{
+            font-size: 16px;
+            margin: 15px;
+        }
+        .elements input, button{
+            padding: 5px 8px;
+            width: 130px;
+        }
+        .sign-up{
+            margin-top: -60px;
+        }
+        .choose{
+            margin-top: 80px;
+        }
+        .city{
+            width: 210px;
+            height: 210px;
+        }
+        .lore , .lorem{
+            font-size: 20px;
+        }
+        .moder{
+            width: 210px;
+            height: 210px;
+        }
+        .book-now ,.land{
+            font-size: 16px;
+            padding: 5px;
+        }
+        .nineth{
+            max-width: 1024px;
+        }
+        .nineth img{
+            max-width: 1010px;
+        }
+        .black{
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            
+        }
+        .lor , .spa{
+            font-size: 20px;
+        }
+        .footer-text{
+            font-size: 22px;
+        }
+        .footer-small{
+            font-size: 12px;
+        }
+        .white{
+            width: 55px;
+            height: 55px;
+        }
+        footer{
+            margin-top: 80px;
+        }
+     }
+
+
+     /* responsive 768 */
+
+     @media screen and (max-width: 425px){
+        .moder{
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        #modern{
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        nav{
+            max-width: 425px;
+        }
+        .contaner{
+            margin: 0 20px;
+        }
+        #nav-logo a{
+            font-size: 11px;
+        }
+        #book{
+            display: none;
+        }
+        .mtt-3{
+            margin-top: 2px;
+        }
+        nav ul a{
+            font-size: 8px;
+        }
+        .coll-2 {
+            display: none;
+            -ms-flex: 0 0 0;
+            flex: 0 0 0;
+            max-width: 0;
+        }
+        .coll-5 {
+            -ms-flex: 0 0 61.666667%;
+            flex: 0 0 100%;
+            max-width: 66.6666%;
+        }
+        .exp{
+            font-size: 28px;
+        }
+        .exp-con{
+            padding-top: 5px;
+            padding-bottom: 65px;
+        }
+        .p-text{
+            margin: 15px 0;
+            font-size: 9px;
+        }
+        .exp-con a{
+            font-size: 10px;
+        }
+        .elements{
+            font-size: 10px;
+            margin: 10px;
+        }
+        .elements input, button{
+            padding: 5px 8px;
+            font-size: 8px;
+            width: 80px;
+        }
+        .sign-up{
+            margin-top: -40px;
+            padding: 0 0px;
+        }
+        .choose{
+            margin-top: 60px;
+        }
+        .city{
+            width: 120px;
+            height: 120px;
+        }
+        .lore , .lorem, .city p span{
+            font-size: 14px;
+        }
+        .small-p{
+            font-size: 18px;
+        }
+        .big-p{
+            font-size: 28px;
+        }
+        .button-now{
+            font-size: 18px;
+        }
+        #modern p, #modern p span{
+            font-size: 24px;
+        }
+        .book-now ,.land{
+            font-size: 24px;
+            width: auto;
+            padding: 10px 15px;
+        }
+        .nineth{
+            max-width: 425px;
+        }
+        .nineth img{
+            max-width: 420px;
+        }
+        .black{
+            width: 90px;
+            height: 90px;
+            padding: 8px;
+            
+        }
+        .lor , .spa{
+            font-size: 14px;
+        }
+        .footer-text{
+            font-size: 12px;
+        }
+        .footer-small{
+            font-size: 6px;
+        }
+        .white{
+            width: 20px;
+            height: 20px;
+        }
+        footer{
+            margin-top: 20px;
+        }
+     }
+    @media screen and (max-width: 375px){
+        body{
+            max-width: 375px;
+        }
+        .moder{
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        #modern{
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        nav{
+            max-width: 375px;
+        }
+        .contaner{
+            margin: 0 20px;
+        }
+        #nav-logo a{
+            font-size: 11px;
+        }
+        #book{
+            display: none;
+        }
+        .mtt-3{
+            margin-top: 2px;
+        }
+        nav ul a{
+            font-size: 8px;
+            padding: 5px;
+        }
+        .coll-2 {
+            display: none;
+            -ms-flex: 0 0 0;
+            flex: 0 0 0;
+            max-width: 0;
+        }
+        .coll-5 {
+            -ms-flex: 0 0 61.666667%;
+            flex: 0 0 100%;
+            max-width: 66.6666%;
+        }
+        .exp{
+            font-size: 24px;
+        }
+        .exp-con{
+            padding-top: 5px;
+            padding-bottom: 50px;
+        }
+        .p-text{
+            margin: 15px 0;
+            font-size: 9px;
+        }
+        .exp-con a{
+            font-size: 10px;
+            padding: 5px;
+        }
+        .elements{
+            font-size: 10px;
+            margin: 5px;
+        }
+        .elements input, button{
+            padding: 5px;
+            font-size: 6px;
+            width: 80px;
+        }
+        .sign-up{
+            margin-top: -30px;
+            padding: 0 0px;
+        }
+        .choose{
+            margin-top: 40px;
+        }
+        .city{
+            width: 100px;
+            height: 100px;
+        }
+        .lore , .lorem, .city p span{
+            font-size: 14px;
+        }
+        .small-p{
+            font-size: 18px;
+        }
+        .big-p{
+            font-size: 28px;
+        }
+        .button-now{
+            font-size: 18px;
+        }
+        #modern p, #modern p span{
+            font-size: 24px;
+        }
+        .book-now ,.land{
+            font-size: 24px;
+            width: auto;
+            padding: 10px 15px;
+        }
+        .nineth{
+            max-width: 375px;
+        }
+        .nineth img{
+            max-width: 370px;
+        }
+        .black{
+            width: 80px;
+            height: 80px;
+            padding: 5px;
+            
+        }
+        .lor , .spa{
+            font-size: 12px;
+        }
+        .footer-text{
+            font-size: 12px;
+        }
+        .footer-small{
+            font-size: 6px;
+        }
+        .white{
+            width: 20px;
+            height: 20px;
+        }
+        footer{
+            margin-top: 20px;
+        }
+        #contact{
+            display: none;
+        }
+     }
+
+
+     @media screen and (max-width: 320px){
+        body{
+            max-width: 320px;
+        }
+        .moder{
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        #modern{
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        nav{
+            max-width: 320px;
+        }
+        .contaner{
+            margin: 0 20px;
+        }
+        #nav-logo a{
+            font-size: 11px;
+        }
+        #book{
+            display: none;
+        }
+        .mtt-3{
+            margin-top: 2px;
+        }
+        nav ul a{
+            font-size: 8px;
+            padding: 5px;
+        }
+        .coll-2 {
+            display: none;
+            -ms-flex: 0 0 0;
+            flex: 0 0 0;
+            max-width: 0;
+        }
+        .coll-5 {
+            -ms-flex: 0 0 61.666667%;
+            flex: 0 0 100%;
+            max-width: 66.666667%;
+        }
+        .exp{
+            font-size: 18px;
+        }
+        .exp-con{
+            padding-top: 0px;
+            padding-bottom: 40px;
+        }
+        .p-text{
+            margin: 7px 0;
+            font-size: 7px;
+        }
+        .exp-con a{
+            font-size: 10px;
+            padding: 5px;
+        }
+        .elements{
+            font-size: 7px;
+            margin: 5px;
+        }
+        .elements input, button{
+            padding: 3px;
+            font-size: 5px;
+            width: auto;
+        }
+        .sign-up{
+            margin-top: -20px;
+            padding: 0 0px;
+        }
+        .choose{
+            margin-top: 40px;
+        }
+        .city{
+            width: 85px;
+            height: 85px;
+        }
+        .lore , .lorem, .city p span{
+            font-size: 8px;
+        }
+        .small-p{
+            font-size: 18px;
+        }
+        .big-p{
+            font-size: 28px;
+        }
+        .button-now{
+            font-size: 18px;
+        }
+        #modern p, #modern p span{
+            font-size: 24px;
+        }
+        .book-now ,.land{
+            font-size: 24px;
+            width: auto;
+            padding: 10px 15px;
+        }
+        .nineth{
+            max-width: 320px;
+        }
+        .nineth img{
+            max-width: 315px;
+        }
+        .black{
+            width: 60px;
+            height: 60px;
+            padding: 5px;
+            
+        }
+        .lor , .spa{
+            font-size: 6px;
+        }
+        .footer-text{
+            font-size: 12px;
+        }
+        .footer-small{
+            font-size: 4px;
+            width: 100%;
+        }
+        .white{
+            width: 10px;
+            height: 10px;
+        }
+        footer{
+            margin-top: 20px;
+        }
+        #contact{
+            display: none;
+        }
+     }
